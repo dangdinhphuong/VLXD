@@ -9,7 +9,7 @@
     <meta name="keywords" content="Multikart">
     <meta name="author" content="Multikart">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
-    <title>Multikart PWA App</title>
+    <title>Vật liệu xây dựng</title>
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="assets/images/favicon.png">
     <meta name="theme-color" content="#ff4c3b"/>
@@ -110,8 +110,7 @@
 <!-- tab section start -->
 <section class="pt-0 tab-section">
     <div class="title-section px-15">
-        <h2>Find your Style</h2>
-        <h3>Super Summer Sale</h3>
+        <h2>Sản phẩm mới</h2>
     </div>
     <div class="tab-section">
         <ul class="nav nav-tabs theme-tab pl-15">
@@ -883,73 +882,7 @@
 <!-- tab section end -->
 
 
-<!-- timer banner start -->
-<section class="banner-timer">
-    <div class="banner-bg">
-        <div class="banner-content">
-            <div>
-                <h6>Denim Wear</h6>
-                <h2>Sales Starts In</h2>
-                <div class="counters">
-                    <div class="counter d-none">
-                        <span id="days">NA</span>
-                        <p>Days</p>
-                    </div>
-                    <div class="counter">
-                        <span id="hours">NA</span>
-                        <p>Hours</p>
-                    </div>
-                    <div class="counter">
-                        <span id="minutes">NA</span>
-                        <p>Minutes</p>
-                    </div>
-                    <div class="counter">
-                        <span id="seconds">NA</span>
-                        <p>Seconds</p>
-                    </div>
-                </div>
-                <a href="shop.html">explore now</a>
-            </div>
-        </div>
-        <div class="banner-img">
-            <img src="assets/images/banner-image.png" class="img-fluid" alt="">
-        </div>
-    </div>
-</section>
-<!-- timer banner end -->
-
-
 <!-- brands section start -->
-<section class="brand-section pl-15">
-    <h2 class="title">Biggest Deals on Top Brands</h2>
-    <div class="brand-slider slick-default">
-        <div>
-            <a class="brand-box" href="shop.html">
-                <img src="assets/images/1.png" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div>
-            <a class="brand-box" href="shop.html">
-                <img src="assets/images/2.png" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div>
-            <a class="brand-box" href="shop.html">
-                <img src="assets/images/3.png" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div>
-            <a class="brand-box" href="shop.html">
-                <img src="assets/images/4.png" class="img-fluid" alt="">
-            </a>
-        </div>
-        <div>
-            <a class="brand-box" href="shop.html">
-                <img src="assets/images/5.png" class="img-fluid" alt="">
-            </a>
-        </div>
-    </div>
-</section>
 <div class="divider"></div>
 <!-- brands section end -->
 
@@ -1162,7 +1095,7 @@
 
 
 <!-- pwa install app popup start -->
-<div class="offcanvas offcanvas-bottom addtohome-popup" tabindex="-1" id="offcanvas">
+<!-- <div class="offcanvas offcanvas-bottom addtohome-popup" tabindex="-1" id="offcanvas">
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     <div class="offcanvas-body small">
         <div class="app-info">
@@ -1174,10 +1107,20 @@
         </div>
         <a href="javascript:void(0)" class="btn btn-solid install-app" id="installApp">add to home screen</a>
     </div>
-</div>
+</div> -->
 <!-- pwa install app popup end -->
 
+<script>
+    // Mở cửa sổ mới và ẩn tab hiển thị URL
+var newWindow = window.open('', '_blank', 'toolbar=no,location=no,status=no,menubar=no');
 
+// Đặt nội dung của cửa sổ mới
+newWindow.document.write('<html><head><title>My Window</title></head><body>Hello, World!</body></html>');
+
+// Đóng tab hiển thị URL trong cửa sổ mới
+newWindow.document.close();
+
+</script>
 <!-- latest jquery-->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 

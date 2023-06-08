@@ -1035,7 +1035,11 @@ button:focus {
     overflow: hidden; }
 .tab-section .tab-pane.show .product-box {
     -webkit-animation: zoomIn 300ms ease-in-out;
-    animation: zoomIn 300ms ease-in-out; }
+    animation: zoomIn 300ms ease-in-out; 
+    background: #fff;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
 
 /*=====================
    2.13 Timer CSS start
@@ -1482,6 +1486,7 @@ header.darkHeader.bg-transparent {
     right: 8px; }
 
 .product-box .product-content {
+    text-align: center;
     margin-top: 8px; }
 [dir="rtl"] .product-box .product-content {
     text-align: right; }
@@ -2312,8 +2317,6 @@ header.darkHeader.bg-transparent {
 
 .title-section {
     margin-bottom: 15px; }
-.title-section h2 {
-    margin-top: -5px; }
 .title-section h3 {
     color: #777777; }
 
